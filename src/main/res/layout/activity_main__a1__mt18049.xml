@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity_A1_MT18049">
+
+    <LinearLayout
+        android:id="@+id/lay1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/namef"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/u_name"
+            android:textSize="10pt"
+            android:padding="12dp"
+            android:layout_weight="1"/>
+
+        <EditText
+            android:id="@+id/uname"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/user_name"
+            android:padding="12dp"
+            android:layout_weight="2"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lay2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/lay1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/rollf"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/r_no"
+            android:textSize="10pt"
+            android:padding="12dp"
+            android:layout_weight="1"/>
+
+        <EditText
+            android:id="@+id/rno"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/roll_no"
+            android:padding="12dp"
+            android:layout_weight="2"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lay3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/lay2"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/brnchf"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/brnch"
+            android:textSize="10pt"
+            android:padding="12dp"
+            android:layout_weight="1"/>
+
+        <EditText
+            android:id="@+id/bname"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/branch"
+            android:padding="12dp"
+            android:layout_weight="2"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lay4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/lay3"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/crse1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/c1"
+            android:textSize="10pt"
+            android:padding="12dp"
+            android:layout_weight="1"/>
+
+        <EditText
+            android:id="@+id/cname1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/course1"
+            android:padding="12dp"
+            android:layout_weight="2"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lay5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/lay4"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/crse2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/c2"
+            android:textSize="10pt"
+            android:padding="12dp"
+            android:layout_weight="1"/>
+
+        <EditText
+            android:id="@+id/cname2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/course2"
+            android:padding="12dp"
+            android:layout_weight="2"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lay6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/lay5"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/crse3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/c3"
+            android:textSize="10pt"
+            android:padding="12dp"
+            android:layout_weight="1"/>
+
+        <EditText
+            android:id="@+id/cname3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/course3"
+            android:padding="12dp"
+            android:layout_weight="2"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lay7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/lay6"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/crse4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/c4"
+            android:textSize="10pt"
+            android:padding="12dp"
+            android:layout_weight="1"/>
+
+        <EditText
+            android:id="@+id/cname4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/course4"
+            android:padding="12dp"
+            android:layout_weight="2"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lay8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lay7"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/but1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/submit_but"
+            android:onClick="submitDetails"
+            android:layout_marginHorizontal="60dp"
+            android:padding="12dp"
+            />
+
+        <Button
+            android:id="@+id/but2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/clear_but"
+            android:onClick="clearFields"
+            android:padding="12dp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
+

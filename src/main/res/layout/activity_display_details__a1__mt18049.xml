@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DisplayDetails_A1_MT18049">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:textSize="12pt"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/head1"/>
+
+        <TextView
+            android:id="@+id/op1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="8pt"/>
+
+        <TextView
+            android:id="@+id/op2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="8pt"/>
+
+        <TextView
+            android:id="@+id/op3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="8pt"/>
+
+        <TextView
+            android:id="@+id/op4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="8pt"/>
+
+        <TextView
+            android:id="@+id/op5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="8pt"/>
+
+        <TextView
+            android:id="@+id/op6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="8pt"/>
+
+        <TextView
+            android:id="@+id/op7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="8pt"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
+
+
+
+
+
+

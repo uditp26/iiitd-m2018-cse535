@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">HomeAssignment1</string>
+    <string name="user_name">Enter Name</string>
+    <string name="roll_no">Enter Roll. No</string>
+    <string name="branch">Enter Branch</string>
+    <string name="course1">Course 1</string>
+    <string name="course2">Course 2</string>
+    <string name="course3">Course 3</string>
+    <string name="course4">Course 4</string>
+    <string name="submit_but">Submit</string>
+    <string name="clear_but">Clear</string>
+    <string name="u_name">Name:</string>
+    <string name="r_no">Roll No:</string>
+    <string name="brnch">Branch:</string>
+    <string name="c1">Course 1:</string>
+    <string name="c2">Course 2:</string>
+    <string name="c3">Course 3:</string>
+    <string name="c4">Course 4:</string>
+    <string name="head1">Student Details</string>
+</resources>
