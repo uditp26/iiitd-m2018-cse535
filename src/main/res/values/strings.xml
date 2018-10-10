@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">QuizUp</string>
+    <string name="saveb">Save</string>
+    <string name="submitb">Submit</string>
+    <string name="clearb">Clear</string>
+    <string name="Choice1">True</string>
+    <string name="Choice2">False</string>
+</resources>
