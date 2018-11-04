@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">AppSense</string>
+    <string name="xcord">X</string>
+    <string name="ycord">Y</string>
+    <string name="zcord">Z</string>
+    <string name="blog">Start</string>
+    <string name="slog">Stop</string>
+    <string name="accel">Accelerometer</string>
+    <string name="gyro">Gyroscope</string>
+    <string name="ortn">Orientation</string>
+    <string name="gps">GPS</string>
+    <string name="prox">Proximity</string>
+</resources>
