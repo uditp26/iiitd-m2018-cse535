@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ManualCoupon"
+    android:background="@drawable/registeration_bg"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/cpn_avlbl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/tv_date_day"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="04"
+            android:textColor="#ffffff"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/tv_date_month"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="December"
+            android:textColor="#ffffff"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/tv_date_year"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="2018"
+            android:textColor="#ffffff"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/tv_meal_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Lunch"
+            android:textColor="#ffffff"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/tv_coupon_status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Deducted"
+            android:textSize="24sp"
+            android:textColor="#ffffff"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/manualCpnDedctBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:text="Deduct coupon for this meal" />
+
+    </LinearLayout>
+
+    <LinearLayout android:orientation="vertical" android:id="@+id/cpn_nt_avlbl"
+        android:layout_width="match_parent" android:visibility="gone"
+        android:layout_height="wrap_content">
+
+        <TextView android:textSize="24sp"
+            android:id="@+id/tv_cpn_nt_available"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/coupn_not_available_msg"
+            android:hint="Coupon not available as of now" />
+
+    </LinearLayout>
+
+</LinearLayout>

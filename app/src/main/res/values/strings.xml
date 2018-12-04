@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">MessMation</string>
+    <string name="rtitle">Registration</string>
+    <string name="fname">Name</string>
+    <string name="rolln">Roll No.</string>
+    <string name="email">Email</string>
+    <string name="phone">Phone</string>
+    <string name="submitb">Submit</string>
+    <string name="signin">Sign in with Google</string>
+    <string name="coupon">Coupon History</string>
+    <string name="profile">Update Profile</string>
+    <string name="buy_coupon">Buy Coupon</string>
+    <string name="deduct_coupon">Deduct Coupon</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="header_title">User Name</string>
+    <string name="coupon_reminder_notification_channel_name">Coupon Deduction Reminder</string>
+    <string name="coupon_reminder_notification_title">Your Coupon</string>
+    <string name="coupon_reminder_notification_body">Seems you are in for food, deduct your coupon</string>
+    <string name="paybtn">Purchase</string>
+    <string name="coupn_not_available_msg">Coupon not available at this time. Please check back during mess timing hours. A coupon relevant to food timing will be generated automatically at that time.</string>
+    <string name="cpn_already_bght_txt">You can not buy coupons this month anymore as you have already bought coupons for this month. Total coupons bought are </string>
+    <string name="payment_confirmation_title">Payment Confirmation</string>
+
+</resources>

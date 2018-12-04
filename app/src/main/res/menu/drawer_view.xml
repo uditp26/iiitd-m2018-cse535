@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_coupon"
+            android:icon="@drawable/ic_coupon_history"
+            android:title="@string/coupon" />
+        <item
+            android:id="@+id/nav_deduct_coupon"
+            android:icon="@drawable/ic_deduct_coupon"
+            android:title="@string/deduct_coupon" />
+        <item
+            android:id="@+id/nav_buy_coupon"
+            android:icon="@drawable/ic_buy_coupon"
+            android:title="@string/buy_coupon" />
+        <item
+            android:id="@+id/nav_signout"
+            android:icon="@drawable/ic_sign_out"
+            android:title="@string/sign_out" />
+    </group>
+</menu>

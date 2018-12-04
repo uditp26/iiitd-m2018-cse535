@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" android:orientation="vertical"
+    android:background="@drawable/registeration_bg"
+    tools:context=".PaymentConfirmation">
+
+    <TextView android:textSize="32sp"
+        android:id="@+id/tv_payment_success_title"
+        android:layout_width="match_parent" android:text="@string/payment_confirmation_title"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:hint="Payment Confirmation" />
+
+    <TextView android:textSize="24sp"
+        android:id="@+id/tv_payment_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:hint="Success" />
+
+    <TextView android:textSize="24sp"
+        android:id="@+id/tv_payment_amount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:hint="2300.00" />
+
+    <TextView android:textSize="24sp"
+        android:id="@+id/tv_payment_tid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:hint="txt_1347236181" />
+
+    <TextView android:textSize="24sp"
+        android:id="@+id/tv_payment_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:hint="04/12/2018 13:00" />
+
+    <TextView android:textSize="24sp"
+        android:id="@+id/tv_coupon_count"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:hint="30" />
+
+    <TextView android:textSize="24sp"
+        android:id="@+id/tv_payment_user_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff" />
+
+    <TextView android:textSize="24sp"
+        android:id="@+id/tv_payment_user_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:hint="choudhary18111@iiitd.ac.in" />
+
+</LinearLayout>

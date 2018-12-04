@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "575659257524",
+    "firebase_url": "https://messmation-proj.firebaseio.com",
+    "project_id": "messmation-proj",
+    "storage_bucket": "messmation-proj.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:575659257524:android:86e52ceefde78081",
+        "android_client_info": {
+          "package_name": "org.messmation.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "575659257524-ki0b879nn0sj9q72mo4e1njoe11fa0tg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpwOOWoHAzrBP2IEHgnNeXFEDGCB1CtOM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
